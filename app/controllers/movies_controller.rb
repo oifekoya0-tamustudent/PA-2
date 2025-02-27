@@ -11,7 +11,6 @@ class MoviesController < ApplicationController
     session[:sort] = sort_column
     session[:direction] = sort_direction
    end
- end
 
   # GET /movies/1 or /movies/1.json
   def show
