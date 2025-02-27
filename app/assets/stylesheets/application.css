@@ -8,3 +8,41 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Highlight the sorted column */
+.sorted.asc {
+  background-color: #aaffaa;
+}
+
+.sorted.desc {
+  background-color: #ffaaff;
+}
+
+/* Additional style elements for distinctiveness */
+h1 {
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-bottom: 20px;
+}
+
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
