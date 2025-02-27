@@ -1,5 +1,4 @@
 module ApplicationHelper
- module ApplicationHelper
   def sortable(column, title = nil)
     title ||= column.titleize
     # Determine the current sort column and direction from params or session
