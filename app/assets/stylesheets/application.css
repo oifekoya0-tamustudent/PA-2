@@ -46,3 +46,131 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Landing Page Styles */
+.landing-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.landing-header {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 2px solid #2c3e50;
+}
+
+.landing-header .logo {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.landing-header .tagline {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  margin: 40px 0;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: white;
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.services {
+  padding: 40px 0;
+}
+
+.services h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.service-card h4 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+  background: #2c3e50;
+  color: white;
+  border-radius: 8px;
+  margin: 40px 0;
+}
+
+.contact h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.contact-email {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.landing-footer {
+  text-align: center;
+  padding: 30px 0;
+  color: #7f8c8d;
+  border-top: 1px solid #ddd;
+}
+
